@@ -1,0 +1,42 @@
+section {
+	padding: 20px;
+}
+
+#name{
+	float: left;
+	box-sizing: 150px, 150px;
+  	text-align: center;
+	background: #4aaaa5;
+}
+
+#Aboutme {
+	overflow-wrap: left;
+	float: right;
+	color: #777777;
+	
+}
+
+#about{
+	
+	float: right;
+}
+
+#portfolio {
+	float: right;
+}
+
+#contact {
+	float: right;
+}
+
+#image {
+	overflow: 50;
+	height: 300px;
+	width: 250px;
+}
+
+footer {
+	background: #ccc;
+	padding: 20px;
+	clear: both;
+}
