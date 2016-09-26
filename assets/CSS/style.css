@@ -1,41 +1,63 @@
 section {
-	padding: 20px;
+	padding: 50px;
 }
 
-#name{
-	float: left;
-	box-sizing: 150px, 150px;
-  	text-align: center;
-	background: #4aaaa5;
+header {
+  	position: fixed;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 50px;
+    color: white;
+    background-color: black;
+    clear: both;
+    text-align: center;
+    font-family: Courier, monospace;
+    font-size: 30px;
+}
+
+.logos {
+	display: inline-block;
+	float: right;
+	height: 30px;
+	width: 30px;
+}
+
+#amHeader {
+	padding: 50px;
+
+}
+
+#contactMe {
+	position: right;
 }
 
 #Aboutme {
-	overflow-wrap: left;
-	float: right;
+	padding: 10px;
+	width: 550px;
 	color: #777777;
+	font-family: Courier New, Courier, monospace;
 	
 }
 
-#about{
-	
-	float: right;
-}
-
-#portfolio {
-	float: right;
-}
-
-#contact {
-	float: right;
+.menuBar {
+	position: fixed;
+	top: 0;
+	right: -0;
+	font-size: 20px;
+	font-family: Courier New, Courier, monospace;
 }
 
 #image {
+	padding: 10px;
 	overflow: 50;
 	height: 300px;
 	width: 250px;
 }
 
+
+
 footer {
+	text-align: center;
 	background: #ccc;
 	padding: 20px;
 	clear: both;
