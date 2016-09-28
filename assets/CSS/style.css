@@ -1,12 +1,11 @@
 body {
-	content: 650px;
-	background-image: url("/Users/Arus/Desktop/Basic-Portfolio/assets/images/cork-wallet.png");
     width: 960px;
     height: 900px;
 }
+
 header {
-	width: 200px;
-	height: 75px;
+	width: 250px;
+	height: 55px;
 	margin-top: 20px;
 	margin-left: 70px;
     color: white;
@@ -15,6 +14,15 @@ header {
     text-align: center;
     font-family:'Georgia', Times, Times New Roman, serif;
     font-size: 30px;
+}
+
+.box {
+	width: 960px;
+	height: 100px;
+	background-color: white;
+	top: 0;
+	left: 0;
+	border-bottom: 5px solid #4aaaa5;
 }
 
 .menuBar {
@@ -26,16 +34,27 @@ header {
 	font-size: 18px;
 	color: #777777;
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	display: inline;
+	text-decoration: none;
 }
 
+.container {
+	background-image: url("/Users/Arus/Desktop/Basic-Portfolio/assets/images/cork-wallet.png");
+    background-repeat: repeat;
+    width: 960px;
+}
 
-#amHeader {
-	padding: 10px;
+h1 {
+	padding-top: 30px;
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #ffffff;
     border-color: #dddddd;
-    width: 300px;
+    color: #4aaaa5;
+    width: 530px;
+    position: relative;
+    top: 90px;
+    left: 70px;
 }
 
 #Aboutme {
@@ -43,36 +62,28 @@ header {
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-color: #ffffff;
 	border-color: #dddddd;
+	width: 350px
+	height: 450px;
+	position: relative;
+	top: 20px;
+	left: 10px;
+	padding-bottom: 15px;
+	padding-right: 15px;
 	
 }
 
 
 #contactMe {
 	width: 270px;
-	height: 270px;
+	height: 190px;
 	position: absolute;
 	top: 120px;
-	left: 700px;
+	left: 690px;
 	text-align: center;
-	font-size: 12px;
+	font-size: 18px;
 	color: #4aaaa5;
 	background-color: #ffffff;
 	border-color: #dddddd;
-}
-
-.icons {
-	position: absolute;
-	top: 200px;
-	left: 700px;
-	overflow: 50;
-	display: inline;
-}
-
-.iconSize {
-	padding: 10px;
-	overflow: 50;
-	height: 3px;
-	width: 3px;
 }
 
 #image {
@@ -83,12 +94,23 @@ header {
 }
 
 
+hr {
+	display: block;
+	height: 1px;
+	border-color: darkgray;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
 
 footer {
+	position: relative;
 	text-align: center;
 	color: white;
-	font-size: 10px;
+	font-size: 12px;
 	background: #666666;
 	padding: 20px;
 	clear: both;
+	border-top: 5px solid #4aaaa5;
 }
